@@ -153,7 +153,7 @@ static xmlSchemaPtr ows_generate_schema(const ows *o, buffer * xml_schema, bool 
  */
 int ows_schema_validation(ows *o, buffer *xml_schema, buffer *xml, bool schema_is_file, enum ows_schema_type schema_type)
 {
-  xmlSchemaPtr schema;
+  xmlSchemaPtr schema = NULL;
   xmlSchemaValidCtxtPtr schema_ctx;
   xmlDocPtr doc;
   int ret = -1;

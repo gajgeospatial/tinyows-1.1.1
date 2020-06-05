@@ -62,6 +62,7 @@ static char *ows_error_code_string(enum ows_error_code code)
   }
 
   assert(0); /* Should not happen */
+  return "UndefinedError";
 }
 
 

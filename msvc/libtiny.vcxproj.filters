@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\fe">
+      <UniqueIdentifier>{5e482405-96f7-4756-8d34-50db5d49943b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mapfile">
+      <UniqueIdentifier>{bcb09ee9-9939-4391-96d2-de5d957e0497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ows">
+      <UniqueIdentifier>{fcc7221d-06a8-4819-9721-005d7ac24068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ows">
+      <UniqueIdentifier>{8b7ae445-5abb-407b-ba09-69c87fb41df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\struct">
+      <UniqueIdentifier>{a4525a4f-726b-4e24-9fdd-687eb1dd4c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wfs">
+      <UniqueIdentifier>{94afe2a8-5a78-42c2-9c8a-e093a63e450e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\fe\fe_comparison_ops.c">
+      <Filter>Source Files\fe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fe\fe_error.c">
+      <Filter>Source Files\fe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fe\fe_filter.c">
+      <Filter>Source Files\fe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fe\fe_filter_capabilities.c">
+      <Filter>Source Files\fe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fe\fe_function.c">
+      <Filter>Source Files\fe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fe\fe_logical_ops.c">
+      <Filter>Source Files\fe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fe\fe_spatial_ops.c">
+      <Filter>Source Files\fe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mapfile\mapfile.c">
+      <Filter>Source Files\mapfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_storage.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_version.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_srs.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_request.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_psql.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_metadata.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_layer.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_libxml.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_get_capabilities.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_geobbox.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_config.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_error.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ows\ows_bbox.c">
+      <Filter>Source Files\ows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\struct\alist.c">
+      <Filter>Source Files\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\struct\array.c">
+      <Filter>Source Files\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\struct\buffer.c">
+      <Filter>Source Files\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\struct\cgi_request.c">
+      <Filter>Source Files\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\struct\list.c">
+      <Filter>Source Files\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\struct\mlist.c">
+      <Filter>Source Files\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\struct\regexp.c">
+      <Filter>Source Files\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wfs\wfs_describe.c">
+      <Filter>Source Files\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wfs\wfs_error.c">
+      <Filter>Source Files\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wfs\wfs_get_capabilities.c">
+      <Filter>Source Files\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wfs\wfs_get_feature.c">
+      <Filter>Source Files\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wfs\wfs_request.c">
+      <Filter>Source Files\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wfs\wfs_transaction.c">
+      <Filter>Source Files\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\regex-0.12\regex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ows\ows.h">
+      <Filter>Header Files\ows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ows_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ows_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ows_struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
